@@ -1,0 +1,196 @@
+[문제 설명]
+
+
+
+
+연락처 App에 사용되는 DataBase를 만들려고 한다.
+연락처 DataBase에[Table 1]와 같이 3명의 정보가 저장되어 있다고 생각해보자.
+연락처 정보의 각 항목을 field라 하고, 5개의 field가 모인 한 사람의 정보를 record라고 한다.
+연락처 DataBase에서는[Table 2] 와 같이 5개의 field가 사용된다.
+연락처 DataBase가 제공해야 하는 5개의 API를 작성하라.
+
+
+InitDB()
+void InitDB()
+-DataBase를 초기화한다.
+Parameters:
+Returns:
+
+
+Add()
+void Add(char* name, char* number, char* birthday, char* email, char* memo)
+-DataBase에한 개의 record를 추가한다.
+- record는 name, number, birthday, email, memo 5개의 field로 되어있다.
+Parameters:
+name	:NAME field 값
+
+	number	:NUMBER field 값
+	birthday	:BIRTHDAY field 값
+	email	:EMAIL field 값
+	memo	:MEMO field 값
+
+	Returns :
+
+
+Delete()
+int Delete(FIELD field, char* str)
+-field값이 str인 record를 삭제한다.
+
+Parameters:
+field	:field 정보
+	str	: 삭제하려는 record 의 field 값
+	Returns :int	: 삭제한 record 의 개수.삭제한 record 가 없으면 0
+
+
+	Change()
+	int Change(FIELD field, char* str, FIELD changefield, char* changestr)
+	-field값이 str인 record를 찾고, 해당 record의 changefield값을 changestr 로 변경한다.
+	Parameters:
+field	:field 정보
+	str	:field 값
+	changefield	: 변경해야하는 field 정보
+	changestr	: 변경해야하는 field값
+	Returns :int	: 변경한 record 의 개수.변경한 record 가 없으면 0
+
+
+	Search()
+	RESULT Search(FIELD field, char* str, FIELD returnfield)
+	-field값이 str인 record를 찾고, record 개수와 record의 returnfield 값을반환한다.
+	Parameters:
+
+field	:field 정보
+	str	:field 값
+	returnfield	: 반환해야 하는 field 정보
+	Returns :count	:field값이 str인 record 의 개수.
+
+	str	: 해당 record의 returnfield 값.
+	count 값이 0 이거나, 2 이상일 경우 str은 무시된다.
+
+
+
+1. 각 test case 의 최대 record 개수는 50000개 이하이다.
+2. 각 test case 시작 시에 InitDB() 함수가 호출된다.
+3. 입력으로 주어지는 각 field 값은 make_field() 함수에서 만들어지는 field와 동일한 포맷으로 만들어진다.
+4. Delete(), Change(), Search() 함수의 경우, field값이 str인 record 개수가 여러 개 일수 있다.
+
+[예시]
+
+아래 코드는 예시를 위한 값으로 실제 입력 데이터와 다를 수 있습니다.
+
+
+
+
+
+입력
+
+결과
+
+
+Add(“A”, “111”, “0101”, “a.com”, “aaa”);
+
+
+
+
+Add(“B”, “222”, “0202”, “b.com”, “bbb”);
+
+
+
+
+Add(“C”, “333”, “0303”, “c.com”, “ccc”);
+
+
+
+
+Add(“D”, “444”, “0505”, “d.com”, “ddd”);
+
+
+
+
+Add(“E”, “555”, “0505”, “e.com”, “eee”);
+
+
+
+
+result = Search(NAME, “A”, EMAIL);
+
+result.count = 1;
+
+result.str = “a.com”;
+
+
+Change(NAME, “A”, EMAIL, “d.com”);
+
+result = 1;
+
+
+result = Search(NAME, “A”, EMAIL);
+
+result.count = 1;
+
+result.str = “d.com”;
+
+
+Delete(NUMBER, “777”);
+
+result = 0;
+
+
+result = Search(BIRTHDAY, “0505”, MEMO);
+
+result.count = 2;
+
+result.str = “”; // result.str 값은 무시된다.
+
+
+Delete(EMAIL, “d.com”);
+
+result = 2;
+
+
+result = Search(NAME, “A”, EMAIL);
+
+result.count = 0;
+
+result.str = “”; // result.str 값은 무시된다.
+
+
+Change(BIRTHDAY, “0505”, MEMO, “zzz”);
+
+result = 2;
+
+
+result = Search(NAME, “E”, MEMO);
+
+result.count = 1;
+
+result.str = “zzz”;
+
+
+
+
+
+[입력 / 출력]
+
+
+
+
+입출력은 제공되는 Main 부분의 코드에서 처리함으로 User Code 부분의 코드에서는 별도로 입출력 함수를 사용해서는 안 된다.
+
+출력 결과는 아래와 같은 형태로 보여진다. (출력 값은 예시이며, 실제 출력 값과 동일하지 않을 수 있다.)
+
+
+
+
+
+#11000
+
+#21000
+
+#31000
+
+#41000
+
+#51000
+
+TotalScore = 5000
+

@@ -1,0 +1,450 @@
+      init[043]: ++++
+      init[051]: ----
+       add[056]: ++++ id = 8 , f =1
+       add[067]: uid 8: 3 added
+       add[075]: uid 3: 8 added
+       add[077]: ----
+       add[056]: ++++ id = 1 , f =2
+       add[067]: uid 1: 5 added
+       add[075]: uid 5: 1 added
+       add[067]: uid 1: 6 added
+       add[075]: uid 6: 1 added
+       add[077]: ----
+       add[056]: ++++ id = 1 , f =1
+       add[067]: uid 1: 2 added
+       add[075]: uid 2: 1 added
+       add[077]: ----
+       add[056]: ++++ id = 3 , f =2
+       add[067]: uid 3: 1 added
+       add[075]: uid 1: 3 added
+       add[067]: uid 3: 6 added
+       add[075]: uid 6: 3 added
+       add[077]: ----
+       add[056]: ++++ id = 2 , f =1
+       add[067]: uid 2: 3 added
+       add[075]: uid 3: 2 added
+       add[077]: ----
+       add[056]: ++++ id = 4 , f =2
+       add[067]: uid 4: 8 added
+       add[075]: uid 8: 4 added
+       add[067]: uid 4: 2 added
+       add[075]: uid 2: 4 added
+       add[077]: ----
+ recommend[148]: ++++ id =2
+ recommend[158]: 
+fid = 4 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 1 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 1 
+ recommend[158]: 
+fid = 3 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 2 
+ recommend[165]: checkid = 6 
+ recommend[167]: list[6] = 1 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 1 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 2 
+ recommend[158]: 
+fid = 1 
+ recommend[165]: checkid = 3 
+ recommend[167]: list[3] = 1 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 3 
+ recommend[165]: checkid = 6 
+ recommend[167]: list[6] = 2 
+ recommend[165]: checkid = 5 
+ recommend[167]: list[5] = 1 
+ recommend[192]: ----
+ recommend[148]: ++++ id =7
+ recommend[192]: ----
+       del[082]: ++++id1 = 1, id2=6
+       del[089]:  0 -> 3
+       del[091]:  0 -> 5
+       del[094]:  5 -> 0
+       del[096]:  5 -> 0
+       del[109]:  0 -> 3
+       del[111]:  0 -> 0
+       del[114]:  0 -> 0
+       del[116]:  0 -> 0
+       del[122]: ----
+       add[056]: ++++ id = 8 , f =2
+       add[067]: uid 8: 2 added
+       add[075]: uid 2: 8 added
+       add[067]: uid 8: 6 added
+       add[075]: uid 6: 8 added
+       add[077]: ----
+       add[056]: ++++ id = 6 , f =1
+       add[067]: uid 6: 2 added
+       add[075]: uid 2: 6 added
+       add[077]: ----
+       add[056]: ++++ id = 2 , f =1
+       add[067]: uid 2: 7 added
+       add[075]: uid 7: 2 added
+       add[077]: ----
+       del[082]: ++++id1 = 6, id2=2
+       del[089]:  0 -> 2
+       del[091]:  0 -> 8
+       del[094]:  8 -> 0
+       del[096]:  8 -> 0
+       del[109]:  0 -> 7
+       del[111]:  0 -> 8
+       del[114]:  8 -> 0
+       del[116]:  8 -> 0
+       del[122]: ----
+       del[082]: ++++id1 = 6, id2=3
+       del[109]:  0 -> 2
+       del[111]:  0 -> 1
+       del[114]:  1 -> 0
+       del[116]:  1 -> 0
+       del[122]: ----
+       add[056]: ++++ id = 3 , f =1
+       add[067]: uid 3: 6 added
+       add[075]: uid 6: 3 added
+       add[077]: ----
+       add[056]: ++++ id = 6 , f =2
+       add[067]: uid 6: 2 added
+       add[075]: uid 2: 6 added
+       add[067]: uid 6: 7 added
+       add[075]: uid 7: 6 added
+       add[077]: ----
+       add[056]: ++++ id = 1 , f =1
+       add[067]: uid 1: 6 added
+       add[075]: uid 6: 1 added
+       add[077]: ----
+       add[056]: ++++ id = 3 , f =2
+       add[067]: uid 3: 5 added
+       add[075]: uid 5: 3 added
+       add[067]: uid 3: 7 added
+       add[075]: uid 7: 3 added
+       add[077]: ----
+ recommend[148]: ++++ id =8
+ recommend[158]: 
+fid = 6 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 1 
+ recommend[165]: checkid = 7 
+ recommend[167]: list[7] = 1 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 1 
+ recommend[165]: checkid = 3 
+ recommend[167]: list[3] = 1 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 1 
+ recommend[158]: 
+fid = 2 
+ recommend[165]: checkid = 6 
+ recommend[167]: list[6] = 1 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 2 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 1 
+ recommend[165]: checkid = 3 
+ recommend[167]: list[3] = 2 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 2 
+ recommend[158]: 
+fid = 4 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 2 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 3 
+ recommend[158]: 
+fid = 3 
+ recommend[165]: checkid = 7 
+ recommend[167]: list[7] = 2 
+ recommend[165]: checkid = 5 
+ recommend[167]: list[5] = 1 
+ recommend[165]: checkid = 6 
+ recommend[167]: list[6] = 2 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 3 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 4 
+ recommend[192]: ----
+#1 100
+      init[043]: ++++
+      init[051]: ----
+       add[056]: ++++ id = 6 , f =2
+       add[067]: uid 6: 1 added
+       add[075]: uid 1: 6 added
+       add[067]: uid 6: 3 added
+       add[075]: uid 3: 6 added
+       add[077]: ----
+       add[056]: ++++ id = 3 , f =1
+       add[067]: uid 3: 4 added
+       add[075]: uid 4: 3 added
+       add[077]: ----
+       add[056]: ++++ id = 1 , f =1
+       add[067]: uid 1: 5 added
+       add[075]: uid 5: 1 added
+       add[077]: ----
+       add[056]: ++++ id = 6 , f =1
+       add[067]: uid 6: 2 added
+       add[075]: uid 2: 6 added
+       add[077]: ----
+       add[056]: ++++ id = 7 , f =2
+       add[067]: uid 7: 1 added
+       add[075]: uid 1: 7 added
+       add[067]: uid 7: 8 added
+       add[075]: uid 8: 7 added
+       add[077]: ----
+       add[056]: ++++ id = 2 , f =1
+       add[067]: uid 2: 7 added
+       add[075]: uid 7: 2 added
+       add[077]: ----
+       del[082]: ++++id1 = 7, id2=2
+       del[089]:  0 -> 2
+       del[091]:  0 -> 8
+       del[094]:  8 -> 0
+       del[096]:  8 -> 0
+       del[109]:  0 -> 7
+       del[111]:  0 -> 6
+       del[114]:  6 -> 0
+       del[116]:  6 -> 0
+       del[122]: ----
+       add[056]: ++++ id = 8 , f =1
+       add[067]: uid 8: 1 added
+       add[075]: uid 1: 8 added
+       add[077]: ----
+       add[056]: ++++ id = 2 , f =1
+       add[067]: uid 2: 10 added
+       add[075]: uid 10: 2 added
+       add[077]: ----
+       add[056]: ++++ id = 4 , f =2
+       add[067]: uid 4: 8 added
+       add[075]: uid 8: 4 added
+       add[067]: uid 4: 10 added
+       add[075]: uid 10: 4 added
+       add[077]: ----
+       add[056]: ++++ id = 2 , f =1
+       add[067]: uid 2: 7 added
+       add[075]: uid 7: 2 added
+       add[077]: ----
+       add[056]: ++++ id = 1 , f =1
+       add[067]: uid 1: 2 added
+       add[075]: uid 2: 1 added
+       add[077]: ----
+       add[056]: ++++ id = 6 , f =2
+       add[067]: uid 6: 4 added
+       add[075]: uid 4: 6 added
+       add[067]: uid 6: 5 added
+       add[075]: uid 5: 6 added
+       add[077]: ----
+       add[056]: ++++ id = 3 , f =1
+       add[067]: uid 3: 8 added
+       add[075]: uid 8: 3 added
+       add[077]: ----
+ recommend[148]: ++++ id =4
+ recommend[158]: 
+fid = 6 
+ recommend[165]: checkid = 5 
+ recommend[167]: list[5] = 1 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 1 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 1 
+ recommend[165]: checkid = 3 
+ recommend[167]: list[3] = 1 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 1 
+ recommend[158]: 
+fid = 10 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 2 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 2 
+ recommend[158]: 
+fid = 8 
+ recommend[165]: checkid = 3 
+ recommend[167]: list[3] = 2 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 3 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 2 
+ recommend[165]: checkid = 7 
+ recommend[167]: list[7] = 1 
+ recommend[158]: 
+fid = 3 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 1 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 4 
+ recommend[165]: checkid = 6 
+ recommend[167]: list[6] = 1 
+ recommend[192]: ----
+       add[056]: ++++ id = 1 , f =1
+       add[067]: uid 1: 10 added
+       add[075]: uid 10: 1 added
+       add[077]: ----
+       add[056]: ++++ id = 1 , f =1
+       add[067]: uid 1: 4 added
+       add[075]: uid 4: 1 added
+       add[077]: ----
+ recommend[148]: ++++ id =2
+ recommend[158]: 
+fid = 1 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 1 
+ recommend[165]: checkid = 10 
+ recommend[167]: list[10] = 1 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 1 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 1 
+ recommend[165]: checkid = 7 
+ recommend[167]: list[7] = 1 
+ recommend[165]: checkid = 5 
+ recommend[167]: list[5] = 1 
+ recommend[165]: checkid = 6 
+ recommend[167]: list[6] = 1 
+ recommend[158]: 
+fid = 7 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 2 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 2 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 1 
+ recommend[158]: 
+fid = 10 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 2 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 2 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 3 
+ recommend[158]: 
+fid = 6 
+ recommend[165]: checkid = 5 
+ recommend[167]: list[5] = 2 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 3 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 4 
+ recommend[165]: checkid = 3 
+ recommend[167]: list[3] = 1 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 3 
+ recommend[192]: ----
+       del[082]: ++++id1 = 10, id2=2
+       del[089]:  0 -> 1
+       del[091]:  0 -> 0
+       del[094]:  0 -> 0
+       del[096]:  0 -> 0
+       del[109]:  0 -> 1
+       del[111]:  0 -> 6
+       del[114]:  6 -> 0
+       del[116]:  6 -> 0
+       del[122]: ----
+ recommend[148]: ++++ id =3
+ recommend[158]: 
+fid = 8 
+ recommend[165]: checkid = 3 
+ recommend[167]: list[3] = 1 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 1 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 1 
+ recommend[165]: checkid = 7 
+ recommend[167]: list[7] = 1 
+ recommend[158]: 
+fid = 4 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 2 
+ recommend[165]: checkid = 6 
+ recommend[167]: list[6] = 1 
+ recommend[165]: checkid = 10 
+ recommend[167]: list[10] = 1 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 1 
+ recommend[165]: checkid = 3 
+ recommend[167]: list[3] = 2 
+ recommend[158]: 
+fid = 6 
+ recommend[165]: checkid = 5 
+ recommend[167]: list[5] = 1 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 2 
+ recommend[165]: checkid = 2 
+ recommend[167]: list[2] = 1 
+ recommend[165]: checkid = 3 
+ recommend[167]: list[3] = 3 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 3 
+ recommend[192]: ----
+       add[056]: ++++ id = 2 , f =1
+       add[067]: uid 2: 4 added
+       add[075]: uid 4: 2 added
+       add[077]: ----
+       add[056]: ++++ id = 3 , f =2
+       add[067]: uid 3: 7 added
+       add[075]: uid 7: 3 added
+       add[067]: uid 3: 10 added
+       add[075]: uid 10: 3 added
+       add[077]: ----
+       add[056]: ++++ id = 1 , f =2
+       add[067]: uid 1: 9 added
+       add[075]: uid 9: 1 added
+       add[067]: uid 1: 3 added
+       add[075]: uid 3: 1 added
+       add[077]: ----
+       add[056]: ++++ id = 6 , f =2
+       add[067]: uid 6: 9 added
+       add[075]: uid 9: 6 added
+       add[067]: uid 6: 7 added
+       add[075]: uid 7: 6 added
+       add[077]: ----
+       add[056]: ++++ id = 2 , f =1
+       add[067]: uid 2: 10 added
+       add[075]: uid 10: 2 added
+       add[077]: ----
+       del[082]: ++++id1 = 8, id2=7
+       del[089]:  0 -> 3
+       del[091]:  0 -> 0
+       del[094]:  0 -> 0
+       del[096]:  0 -> 0
+       del[109]:  0 -> 6
+       del[111]:  0 -> 1
+       del[114]:  1 -> 0
+       del[116]:  1 -> 0
+       del[122]: ----
+       add[056]: ++++ id = 9 , f =2
+       add[067]: uid 9: 5 added
+       add[075]: uid 5: 9 added
+       add[067]: uid 9: 8 added
+       add[075]: uid 8: 9 added
+       add[077]: ----
+       add[056]: ++++ id = 4 , f =2
+       add[067]: uid 4: 5 added
+       add[075]: uid 5: 4 added
+       add[067]: uid 4: 9 added
+       add[075]: uid 9: 4 added
+       add[077]: ----
+ recommend[148]: ++++ id =10
+ recommend[158]: 
+fid = 2 
+ recommend[165]: checkid = 10 
+ recommend[167]: list[10] = 1 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 1 
+ recommend[165]: checkid = 6 
+ recommend[167]: list[6] = 1 
+ recommend[158]: 
+fid = 3 
+ recommend[165]: checkid = 1 
+ recommend[167]: list[1] = 1 
+ recommend[165]: checkid = 10 
+ recommend[167]: list[10] = 2 
+ recommend[165]: checkid = 7 
+ recommend[167]: list[7] = 1 
+ recommend[165]: checkid = 8 
+ recommend[167]: list[8] = 1 
+ recommend[165]: checkid = 4 
+ recommend[167]: list[4] = 2 
+ recommend[165]: checkid = 6 
+ recommend[167]: list[6] = 2 
+ recommend[192]: ----
+list = 4  list_a 6

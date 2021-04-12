@@ -1,0 +1,27 @@
+      init[117]: ++++
+      init[124]: ----
+ cmd_mkdir[190]: ++++path=/, name = aa
+ cmd_mkdir[199]: ----
+
+ cmd_mkdir[190]: ++++path=/, name = bb
+ cmd_mkdir[199]: ----
+
+ cmd_mkdir[190]: ++++path=/aa/, name = cc
+ cmd_mkdir[199]: ----
+
+ cmd_mkdir[190]: ++++path=/bb/, name = dd
+ cmd_mkdir[199]: ----
+
+    cmd_cp[238]: ++++ s=/bb/, d=/aa/ 
+    cmd_cp[244]: ----
+
+    cmd_mv[249]: ++++
+
+    cmd_rm[204]: ++++ /aa/cc/
+    cmd_rm[220]: ----
+
+    cmd_mv[259]: ----
+
+  cmd_find[263]: ++++ / 
+  cmd_find[268]: ----ret = 4
+
